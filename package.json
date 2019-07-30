@@ -1,0 +1,23 @@
+{
+  "name": "aws-lambda-lb-logs-to-elasticsearch",
+  "version": "1.0.0",
+  "description": "An AWS Lambda to take LB logs and push them to ElasticSearch.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "elasticsearch",
+    "lb",
+    "alb"
+  ],
+  "author": "Danny Roberts",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.493.0",
+    "es6": "npm:@elastic/elasticsearch@^6.8.1",
+    "grok-js": "^3.2.1"
+  }
+}
